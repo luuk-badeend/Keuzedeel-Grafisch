@@ -1,25 +1,20 @@
 <x-layout>
-    <div class="mt-8 flex flex-col items-center">
+    <div class="mt-8 flex flex-col items-center relative">
         <h1
             class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
             Let’s Connect</h1>
+        
+        <a href="#" class="border-gray-300 bg-gray-100 border rounded-lg p-5 flex items-center space-x-5">
+            <span>@svg('bi-github')</span>
+            <p class="text-sm">Check out my projects on GitHub</p>
+        </a>
 
-        <p class="mt-4 text-lg text-gray-600 text-center border border-gray-300 bg-gray-100 p-4 rounded-lg">
-            Feel free to reach out to me at
-            <a href="mailto:your-email@example.com"
-                class="text-blue-600 underline hover:text-blue-800 transition duration-300">your-email@example.com</a>.
-        </p>
-
-        <p class="mt-8 text-lg text-gray-600 text-center border border-gray-300 bg-gray-100 p-4 rounded-lg">
+        {{-- <p class="mt-8 text-lg text-gray-600 text-center border border-gray-300 bg-gray-100 p-1 rounded-lg relative">
+            <span class="absolute top-0 right-0 mt-2 mr-2">@svg('bi-github')</span>
             Check out my projects on
             <a href="https://github.com/your-username"
                 class="text-blue-600 underline hover:text-blue-800 transition duration-300">GitHub</a>.
-        </p>
+        </p> --}}
 
-        <p class="mt-8 text-lg text-gray-600 text-center border border-gray-300 bg-gray-100 p-4 rounded-lg">
-            Connect with me on
-            <a href="https://www.linkedin.com/in/your-linkedin-username"
-                class="text-blue-600 underline hover:text-blue-800 transition duration-300">LinkedIn</a>.
-        </p>
     </div>
 </x-layout>
