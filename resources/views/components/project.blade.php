@@ -4,7 +4,7 @@
     <div class="flex flex-wrap gap-2 mt-2">
         @foreach ($technologies as $tech)
             <span
-                class="rounded-lg bg-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-0.5">{{ $tech }}</span>
+                class="rounded-lg bg-blue-200 text-Folder text-xs font-semibold px-2.5 py-0.5">{{ $tech }}</span>
         @endforeach
     </div>
     <p class="my-10">{{ $text }}</p>

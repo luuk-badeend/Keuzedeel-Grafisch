@@ -22,6 +22,7 @@ export default {
                 Depressed: "#D1D7E0",
                 DepressedSecondary: "#BDBDBD",
                 Border: "#BDBDBD",
+                Folder: "#0D73CC",
             },
         },
     },
