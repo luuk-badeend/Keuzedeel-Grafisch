@@ -1,22 +1,39 @@
-<div class="flex flex-wrap">
-    <div class="bg-Primary text-white p-10 border border-Border flex gap-2 flex-col">
-        <div class="w-full mb-4">
-            <h2 class="font-medium text-2xl mb-2">Frontend</h2>
-            @foreach (['HTML', 'CSS', 'JavaScript', 'React', 'Vue.js'] as $skill)
-                <span class="rounded-lg bg-blue-200 text-blue-800 text-xs font-semibold px-4 py-1">{{ $skill }}</span>
-            @endforeach
+<div class="text-white flex-col">
+    <p>.</p>
+    <div class="flex gap-2">
+        <div class="border-l-2 border-b-2 h-4 w-8"></div>
+        <p>Skills</p>
+    </div>
+
+    <div class="ml-11 flex">
+        <div>
+            <div class="border-l-2 border-b-2 h-4 w-8"></div>
+            <div class="border-l-2 border-b-2 h-2 w-0"></div>
         </div>
-        <div class="w-full mb-4">
-            <h2 class="font-medium text-2xl mb-2">Backend</h2>
-            @foreach (['PHP', 'Laravel', 'Node.js'] as $skill)
-                <span class="rounded-lg bg-blue-200 text-blue-800 text-xs font-semibold px-4 py-1">{{ $skill }}</span>
-            @endforeach
+        <p class="pl-2">section</p>
+    </div>
+
+    <div class="ml-11 flex">
+        <div class="border-l-2 h-8"></div>
+        <div class="ml-10">
+            <div class="border-l-2 border-b-2 h-4 w-8"></div>
+            <div class="border-l-2 border-b-2 h-4 w-0"></div>
         </div>
-        <div class="w-full mb-4">
-            <h2 class="font-medium text-2xl mb-2">Other</h2>
-            @foreach (['Linux'] as $skill)
-                <span class="rounded-lg bg-blue-200 text-blue-800 text-xs font-semibold px-4 py-1">{{ $skill }}</span>
-            @endforeach
+        <p class="pl-2">skill</p>
+    </div>
+    <div class="ml-11 flex">
+        <div class="border-l-2 h-6"></div>
+        <div class="ml-10">
+            <div class="border-l-2 border-b-2 h-4 w-8"></div>
+            {{-- <div class="border-l-2 border-b-2 h-4 w-0"></div> --}}
         </div>
+        <p class="pl-2">skill</p>
+    </div>
+    <div class="ml-11 flex">
+        <div>
+            <div class="border-l-2 border-b-2 h-4 w-8"></div>
+            {{-- <div class="border-l-2 border-b-2 h-2 w-0"></div> --}}
+        </div>
+        <p class="pl-2">section</p>
     </div>
 </div>
