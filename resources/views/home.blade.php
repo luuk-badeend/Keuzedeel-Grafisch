@@ -1,7 +1,8 @@
 <x-layout>
-    <div class="flex flex-col gap-20 items-center">
+    <div class="flex flex-col gap-64 items-center">
         <x-hero></x-hero>
-        <div class="flex flex-col lg:flex-row flex-wrap justify-center lg:gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 justify-center">
+
             @foreach ([
         ['title' => 'Portfolio Website', 'technologies' => ['HTML', 'CSS', 'JavaScript', 'TailwindCSS'], 'description' => 'A personal portfolio website to showcase my projects and skills. It includes a homepage, an about me section, and a contact form. The website is fully responsive and optimized for performance. It also features a blog section where I share my thoughts on web development.'],
         ['title' => 'Task Manager App', 'technologies' => ['JavaScript', 'React', 'Redux', 'TypeScript'], 'description' => 'A task management application to help users organize their tasks efficiently. It allows users to create, edit, and delete tasks. The app also supports task prioritization and categorization. Users can set deadlines and receive notifications for upcoming tasks.'],
